@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "iOsFirstApp/ViewController.swift"
+            timestampString = "477019370.396369"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "iOsFirstApp.ViewController.coolLogo.getter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UIImageView&gt;"
+                  moduleName = "iOsFirstApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mihai-mbp/Desktop/xCodeApps/iOsFirstApp/iOsFirstApp/ViewController.swift"
+                  timestampString = "477019370.40261"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "iOsFirstApp.ViewController.coolLogo.setter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UIImageView&gt;"
+                  moduleName = "iOsFirstApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mihai-mbp/Desktop/xCodeApps/iOsFirstApp/iOsFirstApp/ViewController.swift"
+                  timestampString = "477019370.402879"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "iOsFirstApp.ViewController.coolLogo.materializeForSet : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UIImageView&gt;"
+                  moduleName = "iOsFirstApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mihai-mbp/Desktop/xCodeApps/iOsFirstApp/iOsFirstApp/ViewController.swift"
+                  timestampString = "477019370.402994"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "iOsFirstApp.ViewController.init (iOsFirstApp.ViewController.Type)(nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.NSBundle&gt;) -&gt; iOsFirstApp.ViewController"
+                  moduleName = "iOsFirstApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mihai-mbp/Desktop/xCodeApps/iOsFirstApp/iOsFirstApp/ViewController.swift"
+                  timestampString = "477019370.40311"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "70">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "iOsFirstApp.ViewController.init (iOsFirstApp.ViewController.Type)(coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;iOsFirstApp.ViewController&gt;"
+                  moduleName = "iOsFirstApp"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mihai-mbp/Desktop/xCodeApps/iOsFirstApp/iOsFirstApp/ViewController.swift"
+                  timestampString = "477019370.40472"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "31">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

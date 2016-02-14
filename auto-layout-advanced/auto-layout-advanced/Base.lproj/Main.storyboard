@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="auto_layout_advanced" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tvz-TC-r48">
+                                <rect key="frame" x="20" y="20" width="560" height="128"/>
+                                <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="Efi-Jw-sbB"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tPk-XC-duP">
+                                <rect key="frame" x="20" y="156" width="276" height="128"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="VTs-8E-8UM"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0SE-aR-J1C">
+                                <rect key="frame" x="304" y="156" width="276" height="128"/>
+                                <color key="backgroundColor" red="0.5" green="0.0" blue="0.5" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="blD-cE-JwE"/>
+                                </constraints>
+                            </view>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="carnival48" translatesAutoresizingMaskIntoConstraints="NO" id="J3P-s2-lfc">
+                                <rect key="frame" x="98" y="323" width="405" height="257"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="J3P-s2-lfc" secondAttribute="height" multiplier="405:257" id="4xG-fz-EHa"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="tvz-TC-r48" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="7Gl-mr-U82"/>
+                            <constraint firstItem="tvz-TC-r48" firstAttribute="width" secondItem="0SE-aR-J1C" secondAttribute="width" multiplier="2" constant="8" id="E6i-xi-fgf"/>
+                            <constraint firstItem="tPk-XC-duP" firstAttribute="leading" secondItem="tvz-TC-r48" secondAttribute="leading" id="G8j-0b-dND"/>
+                            <constraint firstItem="tvz-TC-r48" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="SNG-2R-hfp"/>
+                            <constraint firstItem="0SE-aR-J1C" firstAttribute="top" secondItem="tvz-TC-r48" secondAttribute="bottom" constant="8" id="TVp-Uv-Urz"/>
+                            <constraint firstItem="0SE-aR-J1C" firstAttribute="trailing" secondItem="tvz-TC-r48" secondAttribute="trailing" id="auA-GP-48Q"/>
+                            <constraint firstItem="tPk-XC-duP" firstAttribute="top" secondItem="tvz-TC-r48" secondAttribute="bottom" constant="8" id="fDU-a9-seX"/>
+                            <constraint firstItem="tvz-TC-r48" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="mUl-HL-uEb"/>
+                            <constraint firstItem="tPk-XC-duP" firstAttribute="top" secondItem="tvz-TC-r48" secondAttribute="bottom" constant="8" id="nMu-lA-C7i"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="J3P-s2-lfc" secondAttribute="bottom" constant="20" id="oRe-bg-Q02"/>
+                            <constraint firstItem="tvz-TC-r48" firstAttribute="width" secondItem="tPk-XC-duP" secondAttribute="width" multiplier="2" constant="8" id="pBB-hb-3IQ"/>
+                            <constraint firstItem="J3P-s2-lfc" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="centerX" multiplier="1.5" id="spx-sm-sQ7"/>
+                            <constraint firstItem="J3P-s2-lfc" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="centerX" multiplier="0.5" id="v6g-n5-b79"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="261" y="420"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="carnival48" width="256" height="256"/>
+    </resources>
+</document>
