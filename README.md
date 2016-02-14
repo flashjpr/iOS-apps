@@ -1,6 +1,7 @@
 # iOS
 
-All my iOS apps developed by me so far. I just started this journey :) 
+All my iOS apps developed by me so far. I just started this journey :)
+In this repo you can find the complete XCode projects for each of those apps (and exercises).
 
 ###first app ever
 This application is as simple as it can be:
@@ -10,4 +11,15 @@ This application is as simple as it can be:
 ![alt text](./Previews/firstApp_1.png "initial view")
 ![alt text](./Previews/firstApp_2.png "second view")
 
+###auto layout
+As I soon found out, it is very important in how one designs an app.
+While it might look perfect on a specific device(e.g. iphone6), the same app on other devices might be a mess.
+Here are the results of a very basic app which works great no matter the device:
+![alt text](./Previews/auto_layout_4.7inch.png "iphone 6")
+![alt text](./Previews/auto_layout_4inch.png "iphone 5")
+![alt text](./Previews/auto_layout_ipad_air.png "ipad air")
+
+And here is another exercise I made that illustrated again those concepts:
+![alt text](./Previews/auto_layout_ip6.png "iphone 6")
+![alt text](./Previews/auto_layout_ipad_retina.png "ipad_retina ")
 
