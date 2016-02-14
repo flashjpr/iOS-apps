@@ -15,11 +15,18 @@ This application is as simple as it can be:
 As I soon found out, it is very important in how one designs an app.
 While it might look perfect on a specific device(e.g. iphone6), the same app on other devices might be a mess.
 Here are the results of a very basic app which works great no matter the device:
+
+
+
 ![alt text](./Previews/auto_layout_4.7inch.png "iphone 6")
 ![alt text](./Previews/auto_layout_4inch.png "iphone 5")
 ![alt text](./Previews/auto_layout_ipad_air.png "ipad air")
 
+
+
 And here is another exercise I made that illustrated again those concepts:
+
+
 ![alt text](./Previews/auto_layout_ip6.png "iphone 6")
 ![alt text](./Previews/auto_layout_ipad_retina.png "ipad_retina ")
 
