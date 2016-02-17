@@ -77,8 +77,9 @@ If the taps number has reached the number inputed by the user, the game restarts
 ###Multiples
 Multiplication by addition. Simplest form of multiplication. Designed for children who wish to practice.
 The game itself takes an integer from user input and multiplies it a number of time (for the moment is hardcoded, and it's 10).
-When the max number of multiplication is reached, the game restarts. 
-User can input new number after restarting.
+When the max number of multiplication is reached, the game restarts. User can input new number after restarting.
+Game works on any display.
+
 
 The initial view starts with:
 - the logo of the game (Multiples)
