@@ -69,7 +69,6 @@ If the taps number has reached the number inputed by the user, the game restarts
 ![alt text](./Previews/tap_tap_2.png "User inputs tap number")
 ![alt text](./Previews/tap_tap_3.png "Game starts")
 ![alt text](./Previews/tap_tap_4.png "Taps are counted")
-![alt text](./Previews/tap_tap_5.png "Still counted")
 ![alt text](./Previews/tap_tap_6.png "Last tap that can be seen before restarting")
 ![alt text](./Previews/tap_tap_1.png "Game restarts")
 
@@ -98,7 +97,6 @@ If the max number of multiplication has been reached(10), the game restarts.
 ![alt text](./Previews/Multiples2.png "User inputs tap number")
 ![alt text](./Previews/Multiples3.png "Game starts")
 ![alt text](./Previews/Multiples4.png "First multiplication for 7")
-![alt text](./Previews/Multiples5.png "Still computing")
 ![alt text](./Previews/Multiples6.png "Last result that can be seen before restarting")
 ![alt text](./Previews/Multiples1.png "Game restarts")
 
