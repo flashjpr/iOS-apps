@@ -8,6 +8,7 @@ In this repo you can find the complete XCode projects for each of those apps (an
 This application is as simple as it can be:
 - empty view with one "lame" button
 - a second "great" view with a message and an image
+- when the button from first view is pressed, the second view §magically§ appears 
 
 ![alt text](./Previews/firstApp_1.png "initial view")
 ![alt text](./Previews/firstApp_2.png "second view")
@@ -72,5 +73,32 @@ If the taps number has reached the number inputed by the user, the game restarts
 ![alt text](./Previews/tap_tap_6.png "Last tap that can be seen before restarting")
 ![alt text](./Previews/tap_tap_1.png "Game restarts")
 
+
+###Multiples
+Multiplication by addition. Simplest form of multiplication. Designed for children who wish to practice.
+The game itself takes an integer from user input and multiplies it a number of time (for the moment is hardcoded, and it's 10).
+When the max number of multiplication is reached, the game restarts. 
+User can input new number after restarting.
+
+The initial view starts with:
+- the logo of the game (Multiples)
+- a text field to introduce the number to be multiplies with itself
+- a play button
+
+When clicking the "play" button, the second view starts. It contains:
+- a label with instructions
+- the "Add" button
+- the label will show the results 
+
+If the max number of multiplication has been reached(10), the game restarts.
+
+
+![alt text](./Previews/Multiples1.png "Welcome view")
+![alt text](./Previews/Multiples2.png "User inputs tap number")
+![alt text](./Previews/Multiples3.png "Game starts")
+![alt text](./Previews/Multiples4.png "First multiplication for 7")
+![alt text](./Previews/Multiples5.png "Still computing")
+![alt text](./Previews/Multiples6.png "Last result that can be seen before restarting")
+![alt text](./Previews/Multiples1.png "Game restarts")
 
 
