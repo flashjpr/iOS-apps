@@ -22,9 +22,9 @@
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                             </imageView>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="What multiple to add by?" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="PO1-wF-AA5">
-                                <rect key="frame" x="175" y="285" width="251" height="30"/>
+                                <rect key="frame" x="175" y="270" width="251" height="45"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="7ft-Bb-T6W"/>
+                                    <constraint firstAttribute="height" constant="45" id="7ft-Bb-T6W"/>
                                     <constraint firstAttribute="width" constant="251" id="vcy-u1-jaw"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="25"/>

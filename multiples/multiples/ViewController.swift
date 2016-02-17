@@ -9,7 +9,7 @@
 import UIKit
 
 
-class ViewController: UIViewController {
+class ViewController: UIViewController , UITextFieldDelegate {
     
     //outlets visible before starting the game
     @IBOutlet weak var logo: UIImageView!
@@ -83,6 +83,17 @@ class ViewController: UIViewController {
         label.hidden = true
         numbersLabel.hidden = true
         add.hidden = true
+    }
+    
+    // deal with keyboard hiding
+    override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
+        self.view.endEditing(true)
+    }
+    
+    func textFieldShouldReturn(textField: UITextField) -> Bool {
+        
+        multipleTxt.resignFirstResponder()
+        return true
     }
 }
 
