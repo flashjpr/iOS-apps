@@ -28,7 +28,7 @@ Whenever a click on each button happens, the corresponding image disapears and t
 
 
 
-###auto layout
+### <a name="constraints"></a>auto layout with <b>constraints</b>
 As I soon found out, it is very important how one designs an app.
 
 While it might look perfect on a specific device(e.g. iphone6), the same app on other devices might be a mess.
@@ -101,3 +101,13 @@ If the max number of multiplication has been reached(10), the game restarts.
 ![alt text](./Previews/Multiples1.png "Game restarts")
 
 
+###Intro to Stack View
+>"Powerful tool Stack View is, careful you must be."
+
+Learning a new way than simple [constraints](#constraints) to design an app in a responsive manner.
+Stack Views are a great, great way to organize your app. I recommend using them as a habbit, and use constraints only when necessary.
+
+So the design is a simple Shoe App without any backend functionality.
+
+![alt text](./Previews/Intro_Stack_View1.png "Portrait")
+![alt text](./Previews/Intro_Stack_View2.png "Landscape")
