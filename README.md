@@ -113,7 +113,7 @@ So the design is a simple Shoe App without any backend functionality.
 ![alt text](./Previews/Intro_Stack_View2.png "Landscape")
 
 
-###Robo Calculator
+###<a name="calculator"></a>Robo Calculator
 >"R2, you miss-calculated the coordinates. Let me do them by myself... Uh, what a rusty robot
 
 Today I have built a... CALCULATOR. Is is an old style retro calculator with basic functionality.
