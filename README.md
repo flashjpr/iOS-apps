@@ -128,9 +128,13 @@ Key operations that it supports are
 
 The design is build using [stack view](#stackView)stack view and [constraints](#constraints).
 
-It has a launch screen which looks like : ![alt text](./Previews/Robo_calc1.png "Launch Screen")
+It has a launch screen which looks like : 
+
+![alt text](./Previews/Robo_calc1.png "Launch Screen")
+
 
 An the app itself is this one: 
+
 ![alt text](./Previews/Robo_calc2.png "Initial view")
 ![alt text](./Previews/Robo_calc3.png "App in-play")
 ![alt text](./Previews/Robo_calc4.png "Portrait")
