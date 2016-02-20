@@ -101,7 +101,7 @@ If the max number of multiplication has been reached(10), the game restarts.
 ![alt text](./Previews/Multiples1.png "Game restarts")
 
 
-###Intro to Stack View
+###<a name="stackView"></a>Intro to Stack View
 >"Powerful tool Stack View is, careful you must be."
 
 Learning a new way than simple [constraints](#constraints) to design an app in a responsive manner.
@@ -111,3 +111,31 @@ So the design is a simple Shoe App without any backend functionality.
 
 ![alt text](./Previews/Intro_Stack_View1.png "Portrait")
 ![alt text](./Previews/Intro_Stack_View2.png "Landscape")
+
+
+###Robo Calculator
+>"R2, you miss-calculated the coordinates. Let me do them by myself... Uh, what a rusty robot
+
+Today I have built a... CALCULATOR. Is is an old style retro calculator with basic functionality.
+Key operations that it supports are
+- Addition
+- Substraction
+- Multiplication
+- Division
+- It also has a special feature to ERASE or CLEAR. 
+ 
+####To CLEAR just double tap on the RESULT LABEL
+
+The design is build using [stack view](#stackView)stack view and [constraints](#constraints).
+
+It has a launch screen which looks like : ![alt text](./Previews/Robo_calc1.png "Launch Screen")
+
+An the app itself is this one: 
+![alt text](./Previews/Robo_calc2.png "Initial view")
+![alt text](./Previews/Robo_calc3.png "App in-play")
+![alt text](./Previews/Robo_calc4.png "Portrait")
+![alt text](./Previews/Robo_calc5.png "Portrait")
+
+
+
+
