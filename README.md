@@ -126,7 +126,7 @@ Key operations that it supports are
 
 ####To CLEAR just double tap on the RESULT LABEL
 
-The design is build using [stack view](#stackView)stack view and [constraints](#constraints).
+The design is build using [stack view](#stackView) and [constraints](#constraints).
 It also has an incorporated Audio Player, and when any button is tapped a sound will be played.
 Audio Played is built using AVFoundation framework.
 
