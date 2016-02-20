@@ -123,22 +123,21 @@ Key operations that it supports are
 - Multiplication
 - Division
 - It also has a special feature to ERASE or CLEAR. 
- 
 ####To CLEAR just double tap on the RESULT LABEL
 
 The design is build using [stack view](#stackView)stack view and [constraints](#constraints).
+It also has an incorporated Audio Player, and when any button is tapped a sound will be played.
+Audio Played is built using AVFoundation framework.
 
 It has a launch screen which looks like : 
 
 ![alt text](./Previews/Robo_calc1.png "Launch Screen")
-
 
 An the app itself is this one: 
 
 ![alt text](./Previews/Robo_calc2.png "Initial view")
 ![alt text](./Previews/Robo_calc3.png "App in-play")
 ![alt text](./Previews/Robo_calc4.png "Portrait")
-![alt text](./Previews/Robo_calc5.png "Portrait")
 
 
 
