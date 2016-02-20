@@ -123,7 +123,7 @@ Key operations that it supports are
 - Multiplication
 - Division
 - It also has a special feature to ERASE or CLEAR.
-- 
+
 ####To CLEAR just double tap on the RESULT LABEL
 
 The design is build using [stack view](#stackView)stack view and [constraints](#constraints).
