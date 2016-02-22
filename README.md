@@ -114,7 +114,7 @@ So the design is a simple Shoe App without any backend functionality.
 
 
 ###<a name="calculator"></a>Robo Calculator
->"R2, you miss-calculated the coordinates. Let me do them by myself... Uh, what a rusty robot
+>"R2, you miss-calculated the coordinates. Let me do them by myself... Uh, what a rusty robot"
 
 Today I have built a... CALCULATOR. Is is an old style retro calculator with basic functionality.
 Key operations that it supports are
@@ -141,5 +141,36 @@ An the app itself is this one:
 ![alt text](./Previews/Robo_calc4.png "Portrait")
 
 
+###<a name="soldier"></a>Soldier vs Enemies
+>"Enemies shall you defeat"
+
+Soldier vs Emenies is my first game in which I revised OOP concepts in swift. 
+It was a great way to revise 
+- Inheritance  
+- Polymorphism
+- Initializers (init, convenience init)
+- Data encapsulation
+
+Key storyline : The soldier has to fight enemies. 
+The more enemies he defeats, the more loot he gains from the treasure chests.
+
+For the moment there is an inventory (in the code), but no UI to access it, YET.
+
+When the game starts, a soldier appears (with name, hp, and attack power set from code - for NOW!!) and he has to fight with dark enemies.
+
+There are 2 kinds of enemies:
+- Sacalul: Has a special power: immunity i.e. if he receives an attack bellow a certain threshold, his HP increases
+- Invoker
+
+After an enemy has died, a Chest appears and the player can collect the goods from it.
+Goods are random, as well as enemies. Another emeny spawns after 2 seconds from the death of first one.
+
+Here are some previews of the game:
+
+![alt text](./Previews/soldier-enemy1.png "Initial view")
+![alt text](./Previews/soldier-enemy2.png "Enemy loses HP")
+![alt text](./Previews/soldier-enemy3.png "Enemy was killed")
+![alt text](./Previews/soldier-enemy4.png "Player can collect the goods")
+![alt text](./Previews/soldier-enemy1.png "A new enemy re-spawns after 2 seconds")
 
 
