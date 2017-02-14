@@ -1,8 +1,4 @@
-# iOS
-
-All my iOS apps developed by me so far. I just started this journey :)
-
-In this repo you can find the complete XCode projects for each of those apps (and exercises).
+# A suite of iOS Applications created for fun 
 
 ###first app ever
 This application is as simple as it can be:
